@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-echo "Installing Yeoman"
+echo "-----> Installing Yeoman"
 npm install -g yo
 
-echo "Installing Bower"
+echo "-----> Installing Bower"
 npm install -g bower
+
+# Install Grunt
+echo "-----> NPM Installing Grunt..."
+npm install -g grunt-cli
