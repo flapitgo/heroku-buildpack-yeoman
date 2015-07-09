@@ -7,6 +7,9 @@ npm install -g yo
 echo "-----> Installing Bower"
 npm install -g bower
 
+echo "-----> Installing tinymce"
+npm install tinymce
+
 # Install Grunt
 echo "-----> NPM Installing Grunt..."
 npm install -g grunt-cli
