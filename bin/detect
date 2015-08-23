@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-if [ -f $1/dynamitegc-web/yo/bower.json ]; then
+if [ -f $1/web/yo/bower.json ]; then
   echo "Bower" && exit 0
 else
   echo "no, sadly" && exit 1
